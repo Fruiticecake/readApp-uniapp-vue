@@ -1,0 +1,1 @@
+<view><uni-search-bar wx:if="{{b}}" bindconfirm="{{a}}" u-i="d1d94b94-0" bind:__l="__l" u-p="{{b}}"></uni-search-bar><view class="wrap"><view class="card_wrap"><view wx:for="{{c}}" wx:for-item="item" wx:key="d" class="card_item" bindtap="{{item.c}}"><button class="card_content" style="{{'background-color:' + item.b}}"><text>{{item.a}}</text></button></view></view></view></view>

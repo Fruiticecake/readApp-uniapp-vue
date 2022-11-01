@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/auth/auth",
+    "pages/404/404",
+    "pages/search/search",
+    "pages/list/list",
+    "pages/bookshelf/bookshelf",
+    "pages/mine/mine",
+    "pages/bookdetails/bookdetails"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/auth/auth",
+        "text": "首页",
+        "iconPath": "static/icon/diqiu.png",
+        "selectedIconPath": "static/icon/diqiu-2.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "发现",
+        "iconPath": "static/icon/heidong.png",
+        "selectedIconPath": "static/icon/heidong-2.png"
+      },
+      {
+        "pagePath": "pages/bookshelf/bookshelf",
+        "text": "书架",
+        "iconPath": "static/icon/yutuhaoyueqiuche.png",
+        "selectedIconPath": "static/icon/yutuhaoyueqiuche-2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/icon/yuhangyuan.png",
+        "selectedIconPath": "static/icon/yuhangyuan-2.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

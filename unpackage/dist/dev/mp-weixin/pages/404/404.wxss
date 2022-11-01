@@ -1,0 +1,9 @@
+
+.warn-text{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 200rpx;
+		padding-top: 10rpx;
+}
